@@ -2,9 +2,9 @@
 import PackageDescription
 
 // BEGIN KMMBRIDGE VARIABLES BLOCK (do not edit)
-let remoteKotlinUrl = "https://api.github.com/repos/Dezdeqness/KMPShared/releases/assets/210519895.zip"
-let remoteKotlinChecksum = "28939959d846af486ec5f2b35365b15dd12e870cb386ea8e8cb03e95fe9f3e5e"
-let packageName = "SharedKMP"
+let remoteKotlinUrl = "https://api.github.com/repos/Dezdeqness/KMPShared/releases/assets/210524595.zip"
+let remoteKotlinChecksum = "0900221a2cab175efabc72e35ff5f82e961f1560386df86b8fd494fb8326767b"
+let packageName = "KMPShared"
 // END KMMBRIDGE BLOCK
 
 let package = Package(

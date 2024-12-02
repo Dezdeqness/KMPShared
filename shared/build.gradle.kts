@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.dezdeqness.kmm"
-version = "0.0.4"
+version = "0.0.5"
 
 kotlin {
     androidTarget {
@@ -26,7 +26,7 @@ kotlin {
         iosSimulatorArm64()
     ).forEach {
         it.binaries.framework {
-            baseName = "SharedKMP"
+            baseName = "KMPShared"
             isStatic = true
         }
     }
