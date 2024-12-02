@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.dezdeqness.kmm"
-version = "0.0.1"
+version = "0.0.3"
 
 kotlin {
     androidTarget {
@@ -49,11 +49,11 @@ android {
     defaultConfig {
         minSdk = 24
     }
-}
+
 
 addGithubPackagesRepository()
 
 kmmbridge {
-    gitHubReleaseArtifacts(useExistingRelease = true)
+    gitHubReleaseArtifacts()
     spm()
 }
