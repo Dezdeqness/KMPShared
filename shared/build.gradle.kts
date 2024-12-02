@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.dezdeqness.kmm"
-version = "0.0.3"
+version = "0.0.4"
 
 kotlin {
     androidTarget {
@@ -49,7 +49,7 @@ android {
     defaultConfig {
         minSdk = 24
     }
-
+}
 
 addGithubPackagesRepository()
 
